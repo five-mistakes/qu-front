@@ -1,0 +1,94 @@
+.App2 {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+  
+*:focus {
+    outline: 0;
+}
+  
+.datepicker {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    cursor: pointer;
+  
+}
+.datepicker > div {
+    padding: 10px 20px;
+}
+.datepicker > div:nth-child(1) {
+    border-right: 1px solid black;
+    background-color: #00b5ad;
+    color: #000000;
+}
+  
+.calendar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 40px;
+    margin: 10px;
+    box-shadow: 0.5px 0.5px 5px rgba(34, 34, 34, 0.5);
+}
+
+abbr {
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #888;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+  
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+  
+.iconContainer {
+    padding: 0 10px;
+    cursor: pointer;
+}
+  
+.month {
+    padding: 0 15px;
+}
+  
+.header_datepicker {
+    height: 30px;
+}
+  
+.cell {
+    width: 50px;
+    height: 50px;
+    border: none;
+    
+    font-size: 16px;
+    padding: 8px 12px;
+}
+  
+.cell:hover {
+    border-radius: 99px;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+  
+.cell.active {
+    border-radius: 99px;
+    background-color: black;
+    color: white;
+}
+
