@@ -1,0 +1,346 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.banner {
+  background: url('../assets/background.png') center center;
+  height: 90vh;
+  position: relative;
+  align-content: center;
+  width: 100%;
+}
+
+.banner__info {
+  color: white;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 4.8rem;
+  z-index: 1;
+}
+
+.banner__info > button {
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.banner__info > button:hover {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
+.banner__info > h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+.banner__info > h5 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.banner {
+  background: url('../assets/background.png') center center;
+  height: 90vh;
+  position: relative;
+  align-content: center;
+  width: 100%;
+}
+
+.banner__info {
+  color: white;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 4.8rem;
+  z-index: 1;
+}
+
+.banner__info > button {
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.banner__info > button:hover {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
+.banner__info > h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+.banner__info > h5 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  padding: 1rem 4.8rem;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
+}
+
+.header__icon {
+  object-fit: contain;
+  height: 2rem;
+  /* display: none; */
+}
+
+.header__icon2 {
+  object-fit: contain;
+  height: 2rem;
+  display: none;
+}
+
+.header__center {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  max-width: fit-content;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  box-sizing: content-box;
+}
+
+.header__center > ::placeholder {
+  font-weight: 500;
+  color: black;
+}
+
+.header__center > input, .header__center > form {
+  display: flex;
+  border: none;
+  outline: none;
+  outline: 0;
+  padding: 10px;
+  outline-width: 0;
+  width: 200px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.header__center2 {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__center2 > p {
+  margin: 1rem;
+}
+
+.header__center2 > p:hover{
+  cursor: pointer;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__avatar {
+  margin-left: 5px;
+}
+
+.header__right > p {
+  font-weight: 600;
+}
+
+.header__right > button {
+  text-transform: inherit;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 999px;
+}
+
+.header__globe {
+  position: absolute;
+  top: 70px;
+  transform: translateX(5rem);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.5px 5px rgba(34, 34, 34, 0.5);
+}
+
+.header__globe > ul {
+  list-style-type: none;
+  padding: 0;    
+}
+
+.header__globe > ul > li {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header__globe > ul > li:hover {
+  background-color: #eee;
+}
+
+.avatar__button {
+  padding: 0 !important;
+}
+
+.active {
+  color: white;
+  background-color: transparent;
+  position: relative;
+}
+
+.passive {
+  color: black;
+}
+
+.noDisplay {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .header__center {
+      position: relative;
+      transform: none;
+      left: 0;
+  }
+}
+
+.card_Img1 {
+  background: url('https://i.pinimg.com/originals/1b/be/21/1bbe21275d2cb7055448696be4ab27b8.jpg') center center;
+}
+.card_Img2 {
+  background: url("http://www.magiciancardtricks.com/uploads/5/6/4/1/5641235/s431054849200788171_p4_i2_w640.jpeg") center center;
+}
+.card_Img3 {
+  background: url("https://images.adsttc.com/media/images/5be9/fd5c/08a5/e5a5/8c00/008f/slideshow/CARLES_FAUS_ARQUITECTURA_-_CARMEN_HOUSE_(2).jpg?1542061390") center center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.searchBar {
+  display: flex;
+  width: fit-content;
+  margin: 200px auto 0 auto;
+  background-color: white;
+  border-radius: 69px;
+  align-content: center;
+  box-shadow: 0.5px 0.5px 5px rgba(34, 34, 34, 0.5);
+}
+.searchBarInput {
+  border: none !important;
+  background-color: inherit;
+  outline: 0;
+  font-size: 14px;
+}
+hr {
+  height: 40px;
+  border-left: none;
+  border-right: 0.2px solid #aaa;
+  align-self: center;
+}
+
+.calendar-picker {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 40px;
+  margin: 10px;
+  box-shadow: 0.5px 0.5px 5px rgba(34, 34, 34, 0.5);
+}
+
+abbr {
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #888;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconContainer {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.month {
+  padding: 0 15px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: none;
+  
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+.cell:hover {
+  border-radius: 99px;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+
+.cell.active {
+  border-radius: 99px;
+  background-color: black;
+  color: white;
+}
