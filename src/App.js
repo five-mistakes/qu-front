@@ -1,14 +1,11 @@
-import React from 'react';
-import './App.css';
-import Home from './Home'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Header from './Header'
-import SearchBar from './SearchBar'
+import React, { useState } from 'react';
+import Home from './components/Home';
 
 function App() {
+  const [enterprise, setEnterprise] = useState(false);
   return (
     <div className="App">
-      <Home />
+      <Home enterprise={enterprise} setEnterprise={setEnterprise}/>
     </div>
   );
 }
