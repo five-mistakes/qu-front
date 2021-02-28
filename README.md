@@ -13,4 +13,4 @@ Install dependencies:
 To build the front-end for production:
 - `npm run build` - this will create a build folder with bundled static files.
 
-To run the fullstack application with backend, please refer [SmartQ backend](https://github.com/five-mistakes/qu-backend).
+To run the fullstack application with backend, please refer [SmartQ backend](https://github.com/five-mistakes/qu-backend) instructions.
